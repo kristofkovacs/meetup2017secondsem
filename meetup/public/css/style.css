@@ -188,7 +188,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url('../images/meetup-bg-2.jpg');
+    background-image: url('../images/meetup-bg-3.png');
     text-align: center;
     color: white;
 }
@@ -819,3 +819,19 @@ input[type="submit"]:hover {
 .submit-button:hover {
     background-color: #008cca;                      /*Gomb hover színe*/
 }
+
+/*Scrollbar*/
+body::-webkit-scrollbar {
+    width: 4px;
+}
+ 
+body::-webkit-scrollbar-track {
+    visibility:visible;
+    background-color: #202020;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #2cfafb;
+  border-radius:10px;
+}
+/*Scrollbar end*/
